@@ -1,0 +1,12 @@
+app/config/local.js
+app/config/production.js
+*_config.json
+app/config/*
+config.json
+package-lock.json
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
