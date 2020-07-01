@@ -1,19 +1,16 @@
 {
-  "name": "box-node-express-skeleton-app",
+  "name": "express-redis-passport",
   "version": "1.0.0",
-  "description": "A skeleton Express app with authentication and Box Platform App Users",
+  "description": "A skeleton Express app with authentication",
   "main": "bin/www",
   "private": true,
   "scripts": {
-    "prestart": "npm run test",
-    "lint": "./node_modules/.bin/gulp lint",
     "start": "node ./bin/www"
   },
-  "author": "Box oss@box.com",
+  "author": "claudiobartolini@yahoo.com",
   "license": "Apache-2.0",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "box-node-sdk": "^1.14.1",
     "config": "^1.30.0",
     "connect-ensure-login": "^0.1.1",
     "connect-redis": "^3.3.3",
@@ -29,9 +26,5 @@
     "passport": "^0.4.0",
     "passport-auth0": "^0.6.1",
     "serve-favicon": "^2.4.5"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-eslint": "^4.0.2"
   }
 }

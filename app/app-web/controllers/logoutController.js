@@ -1,7 +1,5 @@
 'use strict';
 const config = require('config');
-const BoxOptions = config.get('BoxOptions');
-let Box = require('../../box-service/boxClientService');
 
 module.exports.main = async (req, res, next) => {
   if(req.query && req.query.accessToken) {
